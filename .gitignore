@@ -23,7 +23,8 @@
 /public/wp-config.php
 
 # Example themes
-/public/wp-content/themes/twenty*/
+/public/wp-content/themes/twentynineteen
+/public/wp-content/themes/twentytwenty
 
 # Example plugin
 /public/wp-content/plugins/hello.php

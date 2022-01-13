@@ -34,7 +34,7 @@
 
 # Log files
 /public/*.log
-
+.DS_Store
 # htaccess
 /public/.htaccess
 

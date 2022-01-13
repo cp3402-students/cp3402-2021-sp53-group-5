@@ -12,7 +12,89 @@
  Text Domain:  twentytwentyonechild
 */
 body {
-  background-color: #FAFAFA !important;
+  background-color: var(--global--color-background) !important;
 }
 
+.entry-header {
+  display: none;
+}
+
+#product-entry{
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: center;
+}
+
+#product-entry p strong {
+	font-size: 32px;
+}
+
+#product #name{
+	font-family: var(--global--font-primary);
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+}
+
+#product #price{
+	font-family: var(--global--font-primary);
+	font-weight: 500;
+	margin: 0px;
+	padding: 0px;
+	font-size: 22px;
+}
+
+.post-thumbnail,
+.entry-content .wp-audio-shortcode,
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+*[class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+.default-max-width {
+	max-width: var(--responsive--aligndefault-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
+	background-color: #FCD3D2 !important;
+}
+
+
+.wp-block-button {
+	background-color: #FCD3D2 !important;
+}
+
+/* Variables */
+:root {
+
+	/* Font Family */
+	--global--font-primary: var(--font-headings, "Roboto", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+	--global--font-secondary: var(--font-base, "Open Sans", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+
+	/* body width */
+	--global--spacing-horizontal: 10px !important;
+	--responsive--spacing-horizontal: calc(2 * var(--global--spacing-horizontal) * 0.6)  !important;
+
+	/* Color */
+	--global--color-background: #fdfdfd !important;
+
+	/* Buttons */
+	--button--color-text: var(--global--color-black) !important;
+	--button--color-text-hover: var(--global--color-black) !important;
+	--button--color-background: #FCD3D2 !important;
+	--button--border-width: none !important;
+	--button--padding-vertical: 8px !important;
+}
+
+.post-edit-link {
+	display:none;
+}
+
+@media only screen and (min-width: 822px) {
+
+	:root {
+		--responsive--aligndefault-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 80%) !important;
+		--responsive--alignwide-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 90%) !important;
+	}
+}
 

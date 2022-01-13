@@ -15,6 +15,21 @@ body {
   background-color: var(--global--color-background) !important;
 }
 
+.site-title {
+	color: var(--global--color-black) !important;
+	font-family: var(--global--font-primary);
+	font-size: 2rem !important;
+	font-weight: bold !important;
+	letter-spacing: normal;
+	text-transform: none !important;
+	line-height: var(--global--line-height-heading);
+	margin-bottom: calc(var(--global--spacing-vertical) / 6);
+}
+
+.site-title a{
+	text-decoration: none !important;
+}
+
 .entry-header {
   display: none;
 }

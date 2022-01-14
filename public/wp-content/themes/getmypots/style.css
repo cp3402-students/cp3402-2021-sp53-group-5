@@ -165,3 +165,46 @@ body {
 	padding: 5%;
 	background-color: #FFECEC;
 }
+
+#contact-container {
+	background-color: #F1CBCA;
+	width: 90%;
+	padding: 1.5%;
+}
+
+form, #contact-info {
+	margin-left: 5% !important;
+	padding: 3% !important;
+	background-color: #FFECEC;
+}
+
+form button {
+	background-color: var(--global--color-background) !important;
+}
+
+#contact-info div {
+	text-align: center;
+}
+
+
+#support-entry, #support-instruction {
+	margin: 3% !important;
+}
+
+#contact-info-entry {
+	margin: 5%;
+}
+
+#contact-info-header, #contact-info-detail {
+	margin: 0px;
+}
+
+#contact-info-header {
+	font-size: 24px;
+	font-weight: bold;
+}
+#contact-info-detail {
+	font-size: 20px;
+	margin-bottom: 3%;
+}
+

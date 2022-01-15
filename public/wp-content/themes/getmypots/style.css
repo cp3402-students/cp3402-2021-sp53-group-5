@@ -207,4 +207,28 @@ form button {
 	font-size: 20px;
 	margin-bottom: 3%;
 }
-
+#product-description-image{
+	display: grid;
+  	grid-template-columns: 20% 80%;
+  	grid-gap: 30px;
+	padding:10px;
+	margin:30px;
+}
+#product-description-image #image img{
+	width:100%;
+	height:auto;
+}
+#product-description-image #image{
+	align:center;
+}
+#product-description-image #image-large{
+	grid-column: 2 / span 2;
+  	grid-row: 1/4;
+}
+#product-description-image #image-large img{
+	width:100%;
+	height:auto;
+}
+#product-description{
+	margin:100px;
+}

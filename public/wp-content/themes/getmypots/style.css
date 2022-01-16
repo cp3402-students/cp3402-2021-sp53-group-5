@@ -232,3 +232,19 @@ form button {
 #product-description{
 	margin:100px;
 }
+#review-container {
+	background-color: #F1CBCA;
+	padding: 2%;
+}
+
+#review-column {
+	background-color: #ffffff;
+	padding: 2%;
+	text-align: center;
+}
+
+.ib-star-rating--title {
+	margin: 0px !important;
+	margin-right: 40% !important;
+	align-items:center !important;
+}

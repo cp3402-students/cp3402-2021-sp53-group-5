@@ -28,4 +28,6 @@ There are 6 posts under Product; Product description for each product, total of 
 If you want to read more on the site explanation, view this [document](site.md).
 
 ## Deployment
+Our website is avaiable at [here](https://dev-get-my-pots.pantheonsite.io/).\
 If you want to read more on the deployment process, view this [document](deployment.md).
+
